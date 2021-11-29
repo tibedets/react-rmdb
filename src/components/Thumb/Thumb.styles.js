@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Image = styled.img`
   width: 100%;
@@ -7,10 +7,10 @@ export const Image = styled.img`
   transition: all 0.3s;
   object-fit: cover;
   border-radius: 20px;
-  animation: animateMovieThumb 0.5s;
+  animation: animateMovieThumb 2s;
 
   :hover {
-    opacity: 0.8;
+    opacity: 0.6;
   }
 
   @keyframes animateMovieThumb {
